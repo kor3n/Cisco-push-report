@@ -9,13 +9,15 @@ A Script to push commands to Cisco devices and get a report based on conditions.
 1. Configure the **pushsettings.conf** (See existing for example).
 2. Configure the **options\settings.py** (With user and pass and if enable config is needed).
 3. Run from cmd/powershell/terminal via: push.py
-Current bug in above - See to do
-
-
+(Current bug in above - See to do)
+***
 1. Configure the **report\checks.py** (See existing for example).
 2. Configure the **options\settings.py** (With user and pass and if enable config is needed).
 3. Run from cmd/powershell/terminal via: report.py -i <IP ADDRESS>
-Current bug in above only -i flag works - See to do 
 
 # To do
 1. Sort out command line arguments not changing settings - currently have to change settings.py.
+
+# Bugs
+1. Current bug in push.py - See to do
+2. Current bug in report.py only -i flag works - See to do
